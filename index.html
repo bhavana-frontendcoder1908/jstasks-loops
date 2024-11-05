@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // task1 print 1 to 10
+        console.log("task1//print 1 to 10")
+        for(var i=1;i<=10;i++){
+            console.log(i)
+        }
+
+        // task2 print even numbers from 1 to 20
+        console.log("task2//print even numbers from 1 to 20")
+        for( var e=0;e<=20;e++){
+            if(e%2==0){
+                console.log(e)
+            }
+        }
+
+        // task3 print multiples of 5 from 1 to 50
+        console.log("task3//print multiples of 5 from 1 to 50")
+        for(var m=0;m<=50;m++){
+            if(m%5==0){
+                console.log(m)
+            }
+        }
+
+        // task4 sum of 1 to 100 numbers
+        console.log("task4//sum of 1 to 100 numbers")
+        var sum=0;
+        for(s=0;s<=100;s++){
+            // console.log(s)
+            sum+=s
+        }
+          console.log(sum)
+        
+        // task5 factorial of given user number 
+        console.log("task5//factorial of given user number") 
+        let number=prompt("Enter The Number to Get Their Factorial");
+        let fact = 1;
+        for(var f=1;f<=number;f++)
+        fact = fact*f;
+        console.log("The Factorial of the given number is "+fact)
+
+        // task6 printing numbers in reverse order
+        console.log("task6//printing numbers in reverse order")
+        for(v=10;v>=1;v--){
+            console.log(v)
+        }
+
+        // task7 converting into ASCII values
+        console.log("task7//converting into ASCII values")
+        const string = prompt("Enter Any Alphabet to Get ASCII Value");
+        const result = string.charCodeAt(0);
+        console.log(" The ASCII Value is " +result);
+        // console.log(String.fromCharCode(i));
+    </script>
+</body>
+</html>
